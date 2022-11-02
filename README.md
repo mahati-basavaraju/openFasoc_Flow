@@ -41,7 +41,7 @@ sudo apt-get install <packagename>.deb
 ```
 
 OpenFASoC flow
-[image](https://user-images.githubusercontent.com/110677094/199426029-2676771d-e8bc-406f-bf9c-22f617aab4aa.png)
+![image](https://user-images.githubusercontent.com/110677094/199426029-2676771d-e8bc-406f-bf9c-22f617aab4aa.png)
 
 
 <h4> Running the OpenFASOC Flow for temperature sensor generator </h4>
