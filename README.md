@@ -9,6 +9,18 @@ The FASoC Program is focused on developing a complete system-on-chip (SoC) synth
 
 https://openfasoc.readthedocs.io/en/latest/getting-started.html#installation
 
+You can either follow the express installation or the manual installation steps.
+
+The following tools will be required
+1. OpenRoad
+2. Magic
+3. Yosys
+4. Klayout
+5. Open_PDK
+6. Netgen
+
+Note: Miniconda installation might help in easy installation
+
 Make sure to download and install all the required dependencies as mentiioned in the link above.
 
 If you are facing issues in installating Klayout, follow below steps:
@@ -64,25 +76,45 @@ make sky130hd_temp
 
 ![image](https://user-images.githubusercontent.com/110677094/198136608-2bb01a10-ab23-477f-aee5-5ca1c2308872.png)
 
+Observe below floorplan timing, power and area stats
+
 ![image](https://user-images.githubusercontent.com/110677094/198136780-8d9e0694-09b9-4966-b8dc-c76297af7375.png)
+
+Global placement timing reports
 
 ![image](https://user-images.githubusercontent.com/110677094/198137210-75a2d74b-b561-4888-8e3d-3a53bfaca9e9.png)
 
 ![image](https://user-images.githubusercontent.com/110677094/198137389-0ac4c572-defe-4933-8ccd-1027eeb78443.png)
 
+Global placement power and area stats
+
 ![image](https://user-images.githubusercontent.com/110677094/198137460-4329a005-32a2-4dd9-b431-2064868d4d80.png)
 
 ![image](https://user-images.githubusercontent.com/110677094/198137719-069de85d-d636-4d3e-b1ac-0fce8568877c.png)
 
+Detailed placement reports
+
+Timing report
+
 ![image](https://user-images.githubusercontent.com/110677094/198137963-76a03034-14a7-4c90-8371-61538989824b.png)
+
+Slew, capacitance and fanout checks
 
 ![image](https://user-images.githubusercontent.com/110677094/198138295-fb46e910-0e80-4754-b7f1-41a9e6b15c45.png)
 
+Detailed placement power report
+
 ![image](https://user-images.githubusercontent.com/110677094/198138473-50fc5271-967a-409f-bb23-b2396cb6e82c.png)
+
+Routing resources analysis
 
 ![image](https://user-images.githubusercontent.com/110677094/198138650-8a8fd0d7-89a7-482e-8b37-d5772ed1171a.png)
 
+Global routing timing report (report_checks)
+
 ![image](https://user-images.githubusercontent.com/110677094/198138758-eff674d2-57a0-4e77-ae76-3835f23ca636.png)
+
+Global routing power and area stats
 
 ![image](https://user-images.githubusercontent.com/110677094/198138827-019f9897-0297-47cd-ac50-5744d9db7b30.png)
 
@@ -98,7 +130,11 @@ make sky130hd_temp
 
 ![image](https://user-images.githubusercontent.com/110677094/198139850-a05eb2f5-0dd5-4f32-9d05-16c73b13409c.png)
 
+Finish Power report
+
 ![image](https://user-images.githubusercontent.com/110677094/198140225-4fafc61b-313a-4ffe-bfd8-de3ebb4a43cc.png)
+
+Finish area report
 
 ![image](https://user-images.githubusercontent.com/110677094/198140344-8972c13e-4114-4d34-b359-a59cb7e7a7ca.png)
 
