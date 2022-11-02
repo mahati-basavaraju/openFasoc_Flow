@@ -56,7 +56,11 @@ make sky130hd_temp
 
 ![image](https://user-images.githubusercontent.com/110677094/198135936-98aaec16-ad55-48e7-8def-fc932b769157.png)
 
+<h4> Running Synthesis and APR </h4>
+
 ![image](https://user-images.githubusercontent.com/110677094/198136347-0871fcbe-b11c-4ef4-ad29-9933c8e5831e.png)
+
+<h4> Floorplan Results </h4>
 
 ![image](https://user-images.githubusercontent.com/110677094/198136608-2bb01a10-ab23-477f-aee5-5ca1c2308872.png)
 
@@ -127,6 +131,12 @@ LVS is now finished
 
 We can see the messages that DRC and LVS is clean and macro is generated. 
 The final result displays <b>Circuits match uniquely</b>
+
+The results are available in ``` tempsensegen/work ``` directory
+It contains files as below
+6_final_drc.rpt
+6_final_lvs.rpt
+tempsenseInst_error.gds
 
 
 Final GDS Layout viewed using Klayout
