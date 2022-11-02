@@ -65,6 +65,7 @@ make
 ```
 make sky130hd_temp
 ```
+This will create the macro for the thermal sensor, creates the lef/def/gds files and performs lvs/drc checks. It won't run simulations.
 
 ![image](https://user-images.githubusercontent.com/110677094/198135936-98aaec16-ad55-48e7-8def-fc932b769157.png)
 
