@@ -43,7 +43,9 @@ sudo apt-get install <packagename>.deb
 ## Understanding the Verilog Generation flow
 
 The verilog files to be used for the RTL to GDS flow are generated in this step.
-The inputs to these steps are the verilog template files and output are the verilog netlist files which contain the description of the circuit.
+
+<b> Inputs </b> : Verilog template files 
+<b> Outputs </b>: Verilog netlist files which contain the description of the circuit.
 
 The input parameters are taken from the modelfile.csv and the specifications are taken from test.json file.
 
