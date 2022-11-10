@@ -40,7 +40,17 @@ OR
 sudo apt-get install <packagename>.deb
 ```
 
+## Refer to the below git repositories for the steps done before verilog generation:
+
+Aux cell generation:                      https://github.com/drvasanthi/OpenFASOC.git                                         <br>
+Description of GDS and LEF of aux cells:  https://github.com/DebanganaMukherjee/OpenFASOC                                     <br>
+Description of CDL and LIB of aux cells:  https://github.com/Bandaanusha/OPENFASOC/blob/main/Aux_cell_generator_outputs.md    <br>
+For generation of verilog templates:      https://github.com/agarwal-kavya/OpenFASOC                                          <br>
+                                          https://github.com/suysh-msra/OpenFASOC                                             <br>
+
+
 ## Understanding the Verilog Generation flow
+
 
 The verilog files to be used for the RTL to GDS flow are generated in this step.
 
@@ -105,6 +115,12 @@ The generated netlist files are as follows:
 
 Check below image for the terminal output
 ![image](https://user-images.githubusercontent.com/110677094/198141448-52d93700-bd0a-4ce1-985a-d3c1c1955efd.png)
+
+
+## Refer to the below git repositories for the steps done after verilog generation:
+
+Floorplan:                      https://github.com/ParasVekariya/OpenFASOC_Floorplan                                         <br>
+Floorplan and CTS:              https://github.com/m4ury4p/OpenFAASoc_flow                                                   <br>
 
 
 
