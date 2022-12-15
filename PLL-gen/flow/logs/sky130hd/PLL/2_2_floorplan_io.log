@@ -1,0 +1,10 @@
+OpenROAD v2.0-5406-gf7df40058 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING PPL-0015] Macro cp0 is not placed.
+[WARNING PPL-0015] Macro vco0 is not placed.
+Found 0 macro blocks.
+Using 1u default distance from corners.
+Using 2 tracks default min distance between IO pins.
+[INFO PPL-0007] Random pin placement.
+Elapsed time: 0:00.51[h:]min:sec. CPU time: user 0.47 sys 0.04 (99%). Peak memory: 105116KB.

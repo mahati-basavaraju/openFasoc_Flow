@@ -1,0 +1,21 @@
+{
+	"globalroute__timing__setup__tns": 0.0000,
+	"globalroute__timing__setup__ws": inf,
+	"globalroute__timing__drv__max_slew_limit": 0.7891,
+	"globalroute__timing__drv__max_slew": 0,
+	"globalroute__timing__drv__max_cap_limit": 0.7930,
+	"globalroute__timing__drv__max_cap": 0,
+	"globalroute__timing__drv__max_fanout_limit": 1000000015047466219876688855040.0000,
+	"globalroute__timing__drv__max_fanout": 0,
+	"globalroute__timing__drv__setup_violation_count": 0,
+	"globalroute__timing__drv__hold_violation_count": 0,
+	"globalroute__design__io": 5,
+	"globalroute__design__instance__count": 587,
+	"globalroute__design__instance__area": 2126.8735,
+	"globalroute__design__instance__count__stdcell": 585,
+	"globalroute__design__instance__area__stdcell": 1936.8575,
+	"globalroute__design__instance__count__macros": 2,
+	"globalroute__design__instance__area__macros": 190.0160,
+	"globalroute__design__instance__utilization": 0.0791,
+	"globalroute__design__instance__utilization__stdcell": 0.0726
+}
